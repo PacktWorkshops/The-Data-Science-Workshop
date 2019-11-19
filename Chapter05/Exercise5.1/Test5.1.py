@@ -10,9 +10,9 @@ class Test(unittest.TestCase):
 		self.exercises = Exercise5_1
 		
 		self.file_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-Data-Science-Workshop/master/Chapter05/DataSet/taxstats2015.csv'		
-		self.df = pd.read_csv(self.file_url, usecols=['Postcode', 'Average total business income', 'Average total business expenses'])
-		self.X = self.df[['Average total business income', 'Average total business expenses']]
-		self.kmeans = KMeans(random_state=8)
+		self.df = pd.read_csv(self.file_url, usecols=['Postcode', 'Average net tax', 'Average total deductions'])
+		self.X = self.df[['Average net tax', 'Average total deductions']]
+		self.kmeans = KMeans(random_state=42)
 		self.kmeans.fit(self.X)
 		self.y_preds = self.kmeans.predict(self.X)
 		self.df['cluster'] = self.y_preds

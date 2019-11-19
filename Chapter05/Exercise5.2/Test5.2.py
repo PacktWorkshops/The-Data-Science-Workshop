@@ -6,8 +6,8 @@ from sklearn.cluster import KMeans
 
 class Test(unittest.TestCase):
 	def setUp(self):
-		import Exercise5_1
-		self.exercises = Exercise5_1
+		import Exercise5_2
+		self.exercises = Exercise5_2
 		
 		self.file_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-Data-Science-Workshop/master/Chapter05/DataSet/taxstats2015.csv'		
 		self.df = pd.read_csv(self.file_url, usecols=['Postcode', 'Average total business income', 'Average total business expenses'])
