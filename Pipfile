@@ -17,6 +17,7 @@ lime = "==0.1.1.36"
 h2o = "==3.26.0.10"
 pyod = "==0.7.5"
 pandas-profiling = "==2.3.0"
+xlrd = "==1.2.0"
 
 [requires]
 python_version = "3.7"
