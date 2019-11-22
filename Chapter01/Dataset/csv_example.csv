@@ -1,0 +1,5 @@
+algorithm,learning,type
+Linear Regression,Supervised,Regression
+Logistic Regression,Supervised,Classification
+RandomForest,Supervised,Regression or Classification
+k-means,Unsupervised,Clustering
