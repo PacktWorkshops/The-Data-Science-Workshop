@@ -22,22 +22,22 @@ class Test(unittest.TestCase):
 		self.assertEqual(self.exercises.csv_url, self.csv_url)
 
 	def test_csv_df(self):
-		np_testing.assert_array_equal(self.exercises.csv_df, self.csv_df)
+		pd_testing.assert_frame_equal(self.exercises.csv_df, self.csv_df)
 
 	def test_tsv_url(self):
 		self.assertEqual(self.exercises.tsv_url, self.tsv_url)
 
 	def test_tsv_df(self):
-		np_testing.assert_array_equal(self.exercises.tsv_df, self.tsv_df)
+		pd_testing.assert_frame_equal(self.exercises.tsv_df, self.tsv_df)
 
 	def test_xlsx_url(self):
 		self.assertEqual(self.exercises.xlsx_url, self.xlsx_url)
 
 	def test_xlsx_df(self):
-		np_testing.assert_array_equal(self.exercises.xlsx_df, self.xlsx_df)
+		pd_testing.assert_frame_equal(self.exercises.xlsx_df, self.xlsx_df)
 
 	def test_xlsx_df1(self):
-		np_testing.assert_array_equal(self.exercises.xlsx_df1, self.xlsx_df1)
+		pd_testing.assert_frame_equal(self.exercises.xlsx_df1, self.xlsx_df1)
 
 
 if __name__ == '__main__':
