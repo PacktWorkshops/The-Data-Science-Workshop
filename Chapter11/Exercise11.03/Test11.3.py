@@ -26,7 +26,7 @@ class Test(unittest.TestCase):
 		pd_testing.assert_frame_equal(self.exercises.df, self.df)
 
 	def test_il_mask(self):
-		self.assertEqual(self.exercises.il_mask, self.il_mask)
+		np_testing.assert_array_equal(self.exercises.il_mask, self.il_mask)
 
 if __name__ == '__main__':
 	unittest.main()
