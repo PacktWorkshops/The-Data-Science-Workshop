@@ -7,8 +7,8 @@ from sklearn.cluster import KMeans
 
 class Test(unittest.TestCase):
 	def setUp(self):
-		import Activity10_01
-		self.exercises = Activity10_01
+		import Activity10_1
+		self.exercises = Activity10_1
 		
 		self.file_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-Data-Science-Workshop/master/Chapter10/dataset/churn.csv'
 		self.df = pd.read_csv(self.file_url)
