@@ -8,8 +8,8 @@ from sklearn.cluster import KMeans
 
 class Test(unittest.TestCase):
 	def setUp(self):
-		import Activity12_01
-		self.exercises = Activity12_01
+		import Activity12_1
+		self.exercises = Activity12_1
 
 		self.disp_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-Data-Science-Workshop/master/Chapter12/Dataset/disp.csv'
 		self.trans_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-Data-Science-Workshop/master/Chapter12/Dataset/trans.csv'
