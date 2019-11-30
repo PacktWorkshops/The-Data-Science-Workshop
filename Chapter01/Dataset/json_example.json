@@ -1,0 +1,20 @@
+{ 
+   "algorithm":{ 
+      "0":"Linear Regression",
+      "1":"Logistic Regression",
+      "2":"RandomForest",
+      "3":"k-means"
+   },
+   "learning":{ 
+      "0":"Supervised",
+      "1":"Supervised",
+      "2":"Supervised",
+      "3":"Unsupervised"
+   },
+   "type":{ 
+      "0":"Regression",
+      "1":"Classification",
+      "2":"Regression or Classification",
+      "3":"Clustering"
+   }
+}
