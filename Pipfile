@@ -19,6 +19,7 @@ pyod = "==0.7.5"
 pandas-profiling = "==2.3.0"
 xlrd = "==1.2.0"
 flask = "==1.1.1"
+yellowbrick = "==1.0.1"
 
 [requires]
 python_version = "3.7"
