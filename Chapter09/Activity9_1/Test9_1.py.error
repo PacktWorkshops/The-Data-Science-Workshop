@@ -1,0 +1,92 @@
+import unittest
+import import_ipynb
+import pandas as pd
+import pandas.testing as pd_testing
+import numpy.testing as np_testing
+
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+from mlxtend.evaluate import feature_importance_permutation
+
+
+class Test(unittest.TestCase):
+	def setUp(self):
+		import Activity9_1
+		self.exercises = Activity9_1
+
+		self.file_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-Data-Science-Workshop/master/Chapter09/Dataset/KDDCup99.csv'
+		self.df = pd.read_csv(self.file_url)
+		self.y = self.df.pop('label')
+		self.df = pd.get_dummies(self.df)
+
+		self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(self.df, self.y, test_size=0.3, random_state=1)
+
+		self.rf_model = RandomForestClassifier(random_state=168)
+		self.rf_model.fit(self.X_train, self.y_train)
+
+		self.train_preds = self.rf_model.predict(self.X_train)
+		self.test_preds = self.rf_model.predict(self.X_test)
+
+		self.train_acc = accuracy_score(self.y_train, self.train_preds)
+		self.test_acc = accuracy_score(self.y_test, self.test_preds)
+
+		self.imp_vals, _ = feature_importance_permutation(predict_method=self.rf_model.predict, X=self.X_train.values,
+													 y=self.y_train.values, metric='accuracy', num_rounds=1, seed=2)
+
+		self.perm_varimp_df = pd.DataFrame({'feature': self.X_train.columns, 'importance': self.imp_vals})
+
+		self.perm_varimp_df.sort_values('importance', ascending=False, inplace=True)
+
+		self.feature_index = self.df.columns.get_loc("src_bytes")
+
+		self.class_names = list(sorted(y.unique()))
+
+	def test_file_url(self):
+		self.assertEqual(self.exercises.file_url, self.file_url)
+
+	def test_df(self):
+		pd_testing.assert_frame_equal(self.exercises.df, self.df)
+
+	def test_y(self):
+		np_testing.assert_array_equal(self.exercises.y , self.y)
+
+	def test_X_train(self):
+		np_testing.assert_array_equal(self.exercises.X_train , self.X_train)
+
+	def test_X_test(self):
+		np_testing.assert_array_equal(self.exercises.X_test, self.X_test)
+
+	def test_y_train(self):
+		np_testing.assert_array_equal(self.exercises.y_train , self.y_train)
+
+	def test_y_test(self):
+		np_testing.assert_array_equal(self.exercises.y_test , self.y_test)
+
+	def test_train_preds(self):
+		np_testing.assert_array_equal(self.exercises.train_preds , self.train_preds)
+
+	def test_test_preds(self):
+		np_testing.assert_array_equal(self.exercises.test_preds, self.test_preds)
+
+	def test_train_acc(self):
+		self.assertEqual(self.exercises.train_acc, self.train_acc)
+
+	def test_test_acc(self):
+		self.assertEqual(self.exercises.test_acc, self.test_acc)
+
+	def test_imp_vals(self):
+		np_testing.assert_array_equal(self.exercises.imp_vals, self.imp_vals)
+
+	def test_perm_varimp_df(self):
+		pd_testing.assert_frame_equal(self.exercises.perm_varimp_df, self.perm_varimp_df)
+
+	def test_feature_index(self):
+		self.assertEqual(self.exercises.feature_index, self.feature_index)
+
+	def test_class_names(self):
+		np_testing.assert_array_equal(self.exercises.class_names, self.class_names)
+
+
+if __name__ == '__main__':
+	unittest.main()
