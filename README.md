@@ -8,7 +8,7 @@
 This is the repository for [The Data Science Workshop](https://courses.packtpub.com/courses/ruby?utm_source=github&utm_medium=repository&utm_campaign=9781838642365&utm_term=Ruby&utm_content=The%20Ruby%20Workshop), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
 
 ## Requirements and Setup
-<a href="https://courses.packtpub.com/courses/ruby?utm_source=github&utm_medium=repository&utm_campaign=9781838642365&utm_term=Ruby&utm_content=The%20Ruby%20Workshop"><img src="https://github.com/PacktWorkshops/Workshop-Covers/blob/master/The%20Ruby%20Workshop.jpg" alt="The Ruby Workshop" height="270px" width="220px" align="right" this.target="_blank"></a>
+<a href="https://courses.packtpub.com/courses/ruby?utm_source=github&utm_medium=repository&utm_campaign=9781838642365&utm_term=Ruby&utm_content=The%20Ruby%20Workshop"><img src="https://github.com/PacktWorkshops/Workshop-Covers/blob/master/The%20Data%20Science%20Workshop.png" alt="The Data Science Workshop" height="270px" width="220px" align="right" this.target="_blank"></a>
 
 To get started with the project files, you'll need to:
 1. Install Ruby on [Windows](https://rubyinstaller.org/), [Linux/macOS](http://rvm.io/)
