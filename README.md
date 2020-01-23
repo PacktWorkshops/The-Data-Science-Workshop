@@ -3,7 +3,6 @@
 [![GitHub forks](https://img.shields.io/github/forks/PacktWorkshops/The-Data-Science-Workshop.svg)](https://github.com/PacktWorkshops/The-Data-Science-Workshop/network)
 [![GitHub stars](https://img.shields.io/github/stars/PacktWorkshops/The-Ruby-Workshop.svg)](https://github.com/PacktWorkshops/The-Data-Science-Workshop/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/PacktWorkshops/The-Data-Science-Workshop/pulls)
-[![Ruby 2.6](https://img.shields.io/badge/Ruby-2.6-blue.svg)](https://rubyinstaller.org/)
 
 This is the repository for [The Data Science Workshop](https://courses.packtpub.com/courses/ruby?utm_source=github&utm_medium=repository&utm_campaign=9781838642365&utm_term=Ruby&utm_content=The%20Ruby%20Workshop), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
 
