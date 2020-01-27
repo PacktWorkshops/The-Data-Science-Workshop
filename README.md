@@ -7,10 +7,10 @@
 This is the repository for The Data Science Workshop, published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
 
 ## Requirements and Setup
-<a href="https://courses.packtpub.com/courses/ruby?utm_source=github&utm_medium=repository&utm_campaign=9781838642365&utm_term=Ruby&utm_content=The%20Ruby%20Workshop"><img src="https://github.com/PacktWorkshops/Workshop-Covers/blob/master/The%20Data%20Science%20Workshop.png" alt="The Data Science Workshop" height="270px" width="220px" align="right" this.target="_blank"></a>
+<a href= <img src="https://github.com/PacktWorkshops/Workshop-Covers/blob/master/The%20Data%20Science%20Workshop.png" alt="The Data Science Workshop" height="270px" width="220px" align="right" this.target="_blank"></a>
 
 To get started with the project files, you'll need to:
-1. Install Ruby on [Windows](https://rubyinstaller.org/), [Linux/macOS](http://rvm.io/)
+1. Setup Google colab (https://colab.research.google.com/notebooks/intro.ipynb)
 
 ## About The Data Science Workshop
 You already know you want to learn data Science, and the smarter way to learn Data Science is to learn by doing. The Data Science Workshop focuses on building up your practical skills so that you can kick-start your career as a developer and rapidly prototype applications. You'll learn from real examples that lead to real results.
