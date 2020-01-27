@@ -7,10 +7,10 @@
 This is the repository for The Data Science Workshop, published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
 
 ## Requirements and Setup
-<a href= <img src="https://github.com/PacktWorkshops/Workshop-Covers/blob/master/The%20Data%20Science%20Workshop.png" alt="The Data Science Workshop" height="270px" width="220px" align="right" this.target="_blank"></a>
+<img src="https://github.com/PacktWorkshops/Workshop-Covers/blob/master/The%20Data%20Science%20Workshop.png" alt="The Data Science Workshop" height="270px" width="220px" align="right" this.target="_blank">
 
 To get started with the project files, you'll need to:
-1. Setup Google colab (https://colab.research.google.com/notebooks/intro.ipynb)
+1. Setup [Google colab](https://colab.research.google.com/notebooks/intro.ipynb)
 
 ## About The Data Science Workshop
 You already know you want to learn data Science, and the smarter way to learn Data Science is to learn by doing. The Data Science Workshop focuses on building up your practical skills so that you can kick-start your career as a developer and rapidly prototype applications. You'll learn from real examples that lead to real results.
