@@ -13,15 +13,15 @@ To get started with the project files, you'll need to:
 1. Setup [Google colab](https://colab.research.google.com/notebooks/intro.ipynb)
 
 ## About The Data Science Workshop
-You already know you want to learn data Science, and the smarter way to learn Data Science is to learn by doing. [The Data Science Workshop](https://courses.packtpub.com/courses/data-science?utm_source=github&utm_medium=repository&utm_campaign=9781838981266&utm_term=Data%20Science&utm_content=The%20Data%20Science%20Workshop) focuses on building up your practical skills so that you can kick-start your career as a developer and rapidly prototype applications. You'll learn from real examples that lead to real results.
+Where there’s data, there’s insight. With so much data being generated, there is immense scope to extract meaningful information that’ll boost business productivity and profitability. In [The Data Science Workshop](https://courses.packtpub.com/courses/data-science?utm_source=github&utm_medium=repository&utm_campaign=9781838981266&utm_term=Data%20Science&utm_content=The%20Data%20Science%20Workshop), by learning to convert raw data into game-changing insights, you’ll open new career paths and opportunities.  
 
 ## What you will learn
-* Find out the key differences between supervised and unsupervised learning 
-* Manipulate and analyse data using scikit-learn and pandas libraries 
-* Learn about key concepts like regression, classification and clustering 
-* Discover advanced techniques to improve the accuracyof your model 
+* Explore the key differences between supervised learning and unsupervised learning 
+* Manipulate and analyze data using scikit-learn and pandas libraries 
+* Understand key concepts such as regression, classification, and clustering 
+* Discover advanced techniques to improve the accuracy of your model 
 * Understand how to speed up the process of adding new features 
-* Simplify your machine learning workflow for production  
+* Simplify your machine learning workflow for production 
 
 ## Related Workshops
 If you've found this repository useful, you might want to check out some of our other workshop titles:
